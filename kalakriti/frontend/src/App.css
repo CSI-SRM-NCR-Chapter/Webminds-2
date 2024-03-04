@@ -1,0 +1,167 @@
+/* App.css */
+
+/* Reset some basic elements */
+html, body, ul, li, a, h4, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Set some basic styles on the body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body is at least the height of the viewport */
+}
+
+/* Main content should flex and grow to push the footer down */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px; /* Add space for the navbar */
+}
+
+/* Styles for the footer */
+footer {
+  background: #ffffff;
+  color: #333; /* Footer text color should be dark for visibility */
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-mission,
+.footer-navigation,
+.footer-social {
+  flex: 1;
+}
+
+.footer-mission {
+  margin-right: 20px; /* Add spacing between columns */
+}
+
+.footer-navigation ul,
+.footer-social {
+  display: flex;
+}
+
+.footer-navigation ul {
+  justify-content: space-around; /* Spreads navigation items evenly */
+}
+
+.footer-social {
+  justify-content: flex-end; /* Aligns social icons to the right */
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 24px; /* Adjust the size of the icons to match the image */
+  height: auto;
+}
+
+/* Styles for Promo Cards component */
+.promo-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust gap between cards as needed */
+  margin-bottom: 20px; /* Add some space below the promo cards */
+}
+
+.promo-card {
+  display: flex;
+  align-items: center;
+  background: #E8F0F2; /* Light blue background to match your image */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px); /* Three cards per row, minus the gap */
+}
+
+.promo-icon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+.promo-content p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Styles for Last Search component */
+.last-search-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff; /* Assuming a white background */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 80%; /* Adjust based on preference */
+}
+
+.last-search-item {
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px; /* Spacing between search items */
+  flex-grow: 1;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-container,
+  .promo-cards-container,
+  .last-search-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-mission,
+  .footer-navigation,
+  .footer-social,
+  .promo-card,
+  .last-search-item {
+    margin: 10px 0; /* Add spacing between stacked items */
+  }
+
+  .footer-social {
+    align-items: center; /* Center social icons when stacked */
+  }
+
+  .footer-social a {
+    margin: 5px 0; /* Reduce space between stacked social icons */
+  }
+
+  .promo-card,
+  .last-search-item {
+    width: 80%; /* Make the promo cards and last search items wider on smaller screens */
+  }
+
+  .main-content {
+    align-items: stretch; /* Stretch children to full width */
+  }
+}

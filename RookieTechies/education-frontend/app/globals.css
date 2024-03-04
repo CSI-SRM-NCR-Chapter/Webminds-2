@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* carousel */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+}
+
+.course .swiper-pagination-bullet-active {
+  width: 35px !important;
+  border-radius: 5px !important;
+  background-color: #144F58 !important;
+}
+
+.interview .swiper-pagination-bullet-active {
+  width: 35px !important;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+}
+
+.interview .swiper-pagination-bullet {
+  background-color: #fff !important;
+}

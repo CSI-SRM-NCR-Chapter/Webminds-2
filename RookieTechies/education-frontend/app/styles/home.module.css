@@ -1,0 +1,64 @@
+.homehero_container {
+    background: url("../../public/homehero.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heroscroller {
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+}
+
+.footer_container {
+    width: 95vw;
+    margin: 20px auto;
+    border-radius: 30px;
+    height: 80vh;
+    background: url("../../public/homehero.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 50;
+}
+
+.heartbtn {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.coursecard {
+    background: url("../../public/courses.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coursecard_content {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.interviewcard {
+    background: url("../../public/interview.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.interviewcard_content {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
