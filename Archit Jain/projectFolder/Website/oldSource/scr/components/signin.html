@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <style>
+      body {
+        background-color: #003366;
+        color: #66CCFF;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Navbar */
+      nav {
+        background-color: #1E3799;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        color: #66CCFF;
+        text-decoration: none;
+      }
+
+      /* Signin Section */
+      .signin-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .signin-section h3 {
+        color: #1ABC9C;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .signin-section h1 {
+        color: #0074D9;
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+
+      .signin-section button {
+        background-color: #3498DB;
+        color: #66CCFF;
+        border: none;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+
+      .signin-section button img {
+        margin-right: 10px;
+      }
+
+      .signin-section form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .signin-section label {
+        color: #66CCFF;
+        margin-bottom: 5px;
+      }
+
+      .signin-section input {
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+
+      .signin-section button a {
+        color: #66CCFF;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div>
+      <img src="" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="../components/discussion.html">Discussion</a></li>
+          <li><a href="">Courses</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end of navbar -->
+    <!-- start of the signup section -->
+    <div class="signin-section"></div>
+      <!-- section1 -->
+      <div>
+        <h3>welcome to education</h3>
+        <h1>Sign in</h1>
+      </div>
+      <!-- end of section1 -->
+      <div>
+        <!-- button section -->
+        <button>
+          <img src="" alt="google" />
+          sign in with google
+        </button>
+        <button>
+          <img src="" alt="facebook" />
+        </button>
+        <button>
+          <img src="" alt="apple" />
+        </button>
+        <!-- end of button section -->
+        <!-- Form start at this point -->
+        <div>
+          <form action="">
+            <label for="Email">Enter your username or email address</label>
+            <input type="text" name="Email" />
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" />
+            <button>Forgot Password</button>
+            <button>Sign in</button>
+            <label for="noacc">No Account ?</label>
+            <button><a href="./signup.html">sign up</a></button>
+          </form>
+        </div>
+        <!-- Form end at this point -->
+      </div>
+    </div>
+    <!-- end of the signup section -->
+  </body>
+</html>

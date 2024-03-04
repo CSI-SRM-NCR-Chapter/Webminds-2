@@ -1,0 +1,1456 @@
+.whatsapp-chat-background-1 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0 var(--br-213xl);
+    max-height: 100%;
+    width: 33.75rem;
+    object-fit: cover;
+  }
+  .whatsapp-chat-background-2 {
+    left: 33.5rem;
+    width: 33.75rem;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frame-child3,
+  .whatsapp-chat-background-2,
+  .whatsapp-chat-background-3 {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-height: 100%;
+  }
+  .whatsapp-chat-background-3 {
+    left: 67rem;
+    border-radius: 0 0 var(--br-213xl) 0;
+    width: 33.75rem;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .frame-child3 {
+    width: 100%;
+    margin: 0 !important;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 3;
+  }
+  .multiple-messages-icon {
+    height: 14.813rem;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .multiple-messages-rectangle {
+    width: 15.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .discussion1 {
+    margin: 0;
+    width: 40.5rem;
+    height: 16.313rem;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .frame-parent7 {
+    position: absolute;
+    top: -9.062rem;
+    right: 8.5rem;
+    width: 81.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 18.813rem var(--padding-xl) 16.25rem 7.5rem;
+    box-sizing: border-box;
+    gap: 1.25rem 0;
+    max-width: 100%;
+  }
+  .whatsapp-chat-background-1-parent {
+    width: 100.75rem;
+    height: 61.313rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 9.063rem;
+    left: -6.187rem;
+    mix-blend-mode: multiply;
+    font-size: 10.438rem;
+    color: var(--color-white1);
+    font-family: var(--font-aladin);
+  }
+  .home34 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper22,
+  .ui-iconsearchlight3 {
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .home-wrapper22 {
+    width: 10.5rem;
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-21xl);
+    white-space: nowrap;
+    z-index: 1;
+    font-family: var(--font-aladin);
+  }
+  .ui-iconsearchlight3 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+  }
+  .ui-iconsearchlight-wrapper1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-icon3 {
+    position: absolute;
+    width: calc(100% - 26px);
+    top: 0.625rem;
+    right: 0.813rem;
+    left: 0.813rem;
+    max-width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    object-fit: cover;
+  }
+  .instance-parent2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .discussion-inner {
+    width: 5.25rem;
+    height: 5.25rem;
+    position: relative;
+    display: none;
+    z-index: 2;
+  }
+  .home35 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper23 {
+    width: 9.663rem;
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-21xl);
+    z-index: 3;
+    color: var(--color-white1);
+    font-family: var(--font-catamaran);
+  }
+  .home36 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper24 {
+    width: 9.663rem;
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-20xl);
+    z-index: 4;
+  }
+  .home37 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper25 {
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-15xl);
+    z-index: 5;
+  }
+  .home38 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper26 {
+    width: 9.663rem;
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-21xl);
+    z-index: 6;
+  }
+  .home39 {
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  .home-wrapper27 {
+    width: 9.663rem;
+    height: 3.75rem;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-21xl);
+    z-index: 7;
+  }
+  .graphics-icon6 {
+    width: 2.488rem;
+    height: 2.331rem;
+    position: relative;
+  }
+  .graphics-wrapper1 {
+    width: 3.45rem;
+    height: 3.75rem;
+    border-radius: 37.87px;
+    background-color: var(--color-gray-800);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.71rem var(--padding-6xs);
+    z-index: 8;
+  }
+  .home40 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: -0.01em;
+    font-family: var(--font-amaranth);
+    color: var(--color-white1);
+    text-align: left;
+  }
+  .home-wrapper28 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: var(--padding-lgi) var(--padding-lg);
+    background-color: transparent;
+    flex: 1;
+    border-radius: var(--br-41xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+  }
+  .home-wrapper28:hover,
+  .home-wrapper29:hover,
+  .home-wrapper30:hover,
+  .home-wrapper31:hover {
+    background-color: var(--color-gainsboro-400);
+    border: 1px solid var(--color-gainsboro-200);
+    box-sizing: border-box;
+  }
+  .home41 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: -0.01em;
+    font-family: var(--font-amaranth);
+    color: var(--color-white1);
+    text-align: left;
+  }
+  .home-wrapper29 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: var(--padding-lgi);
+    background-color: transparent;
+    flex: 1;
+    border-radius: var(--br-41xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 7;
+  }
+  .home42 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: -0.01em;
+    font-family: var(--font-amaranth);
+    color: var(--color-white1);
+    text-align: left;
+  }
+  .home-wrapper30 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: var(--padding-lgi) var(--padding-29xl) var(--padding-lgi)
+      var(--padding-28xl);
+    background-color: transparent;
+    border-radius: var(--br-41xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 8;
+  }
+  .home-frame-home2 {
+    width: 29rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .home43 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-white1);
+    text-align: left;
+  }
+  .home-wrapper31 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: var(--padding-lgi);
+    background-color: transparent;
+    align-self: stretch;
+    border-radius: var(--br-41xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .instance-frame {
+    width: 10.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+  }
+  .discussion-child,
+  .home-frame-home-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .home-frame-home-parent {
+    width: 65.375rem;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .discussion-child {
+    width: 81.563rem;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ui-iconsearchlight4 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .ui-iconsearchlight-wrapper2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-41xl);
+    border: 1px solid var(--color-white1);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-icon4 {
+    position: absolute;
+    width: calc(100% - 26px);
+    top: 0.625rem;
+    right: 0.813rem;
+    left: 0.813rem;
+    max-width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .instance-parent3 {
+    width: 5.25rem;
+    height: 5.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 2.313rem;
+    right: 2.25rem;
+    z-index: 5;
+  }
+  .rectangle-icon {
+    height: 9.125rem;
+    width: 90rem;
+    position: relative;
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .home44 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: -0.01em;
+    font-family: var(--font-catamaran);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .home-wrapper32 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300);
+    padding: var(--padding-mini);
+    background-color: var(--color-white1);
+    width: 9.663rem;
+    border-radius: var(--br-41xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+  }
+  .home-whatsapp-parent1:hover,
+  .home-whatsapp-parent2:hover,
+  .home-whatsapp-parent:hover,
+  .home-wrapper32:hover {
+    background-color: var(--color-gainsboro-200);
+    border: 1px solid var(--color-darkslategray-200);
+    box-sizing: border-box;
+  }
+  .graphics-icon7 {
+    width: 2.488rem;
+    height: 2.331rem;
+    position: relative;
+  }
+  .chat-background-frame,
+  .vector-parent {
+    margin: 0 !important;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .chat-background-frame {
+    height: 3.75rem;
+    width: 3.45rem;
+    bottom: 2.438rem;
+    left: 3.438rem;
+    border-radius: 37.87px;
+    background-color: var(--color-gray-800);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-white1);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.71rem var(--padding-6xs);
+    cursor: pointer;
+    z-index: 6;
+  }
+  .vector-parent {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-darkslategray-500);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-28xl) 6.875rem var(--padding-20xl);
+    max-width: 100%;
+    z-index: 4;
+  }
+  .interview-tips-1011,
+  .opened-by-rakesh {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.05em;
+    line-height: 118%;
+    font-weight: 400;
+    text-align: center;
+  }
+  .interview-tips-1011 {
+    font-size: var(--font-size-90xl);
+    font-family: inherit;
+  }
+  .opened-by-rakesh {
+    font-size: 3.188rem;
+    font-family: var(--font-amaranth);
+  }
+  .oval-icon1 {
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .paro-shetty {
+    height: 3.563rem;
+    position: relative;
+    display: inline-block;
+  }
+  .confidence-its-essential {
+    margin: 0;
+    width: 50.188rem;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+    display: inline-block;
+  }
+  .interview-tips-group1,
+  .interview-tips-group2,
+  .interview-tips-group3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .interview-tips-group3 {
+    gap: 0.625rem 0;
+  }
+  .interview-tips-group1,
+  .interview-tips-group2 {
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .interview-tips-group1 {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-indigo);
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-5xl) var(--padding-21xl);
+    gap: 0 1.875rem;
+    color: var(--color-white1);
+  }
+  .oval-icon2,
+  .oval-icon3 {
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .oval-icon2 {
+    border-radius: 50%;
+    display: none;
+    min-height: 8.25rem;
+  }
+  .oval-icon3 {
+    z-index: 1;
+  }
+  .how-can-i,
+  .rakesh-kumar {
+    position: relative;
+    display: inline-block;
+  }
+  .rakesh-kumar {
+    width: 14.438rem;
+    height: 3.563rem;
+    white-space: pre-wrap;
+  }
+  .how-can-i {
+    margin: 0;
+    width: 41.25rem;
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+  }
+  .interview-tips-group-inner,
+  .interview-tips-group4,
+  .rakesh-kumar-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rakesh-kumar-parent {
+    gap: 0.625rem 0;
+  }
+  .interview-tips-group-inner,
+  .interview-tips-group4 {
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .interview-tips-group4 {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-white1);
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-5xl) var(--padding-21xl);
+    gap: 0 1.875rem;
+  }
+  .oval-icon4 {
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .paro-shetty1 {
+    height: 3.563rem;
+    position: relative;
+    display: inline-block;
+  }
+  .research-typical-questions {
+    margin: 0;
+    width: 61.688rem;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+    display: inline-block;
+  }
+  .interview-tips-group-child,
+  .interview-tips-group5,
+  .paro-shetty-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .paro-shetty-parent {
+    gap: 0.625rem 0;
+  }
+  .interview-tips-group-child,
+  .interview-tips-group5 {
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .interview-tips-group5 {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-indigo);
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-5xl) var(--padding-21xl);
+    gap: 0 1.875rem;
+    color: var(--color-white1);
+  }
+  .oval-icon5,
+  .oval-icon6 {
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .oval-icon5 {
+    border-radius: 50%;
+    display: none;
+    min-height: 8.25rem;
+  }
+  .oval-icon6 {
+    z-index: 1;
+  }
+  .any-tips-for,
+  .rakesh-kumar1 {
+    position: relative;
+    display: inline-block;
+  }
+  .rakesh-kumar1 {
+    width: 14.438rem;
+    height: 3.563rem;
+    white-space: pre-wrap;
+  }
+  .any-tips-for {
+    margin: 0;
+    width: 39.688rem;
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+  }
+  .interview-tips-group-inner1,
+  .interview-tips-group6,
+  .rakesh-kumar-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rakesh-kumar-group {
+    gap: 0.625rem 0;
+  }
+  .interview-tips-group-inner1,
+  .interview-tips-group6 {
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .interview-tips-group6 {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-white1);
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-5xl) var(--padding-21xl);
+    gap: 0 1.875rem;
+  }
+  .oval-icon7 {
+    height: 8.25rem;
+    width: 8.25rem;
+    object-fit: cover;
+  }
+  .andy-bert,
+  .oval-icon7 {
+    position: relative;
+  }
+  .be-authentic-engage {
+    margin: 0;
+    width: 60.125rem;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+    display: inline-block;
+  }
+  .andy-bert-parent,
+  .interview-tips-group-inner2,
+  .interview-tips-group7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .andy-bert-parent {
+    gap: 0.625rem 0;
+  }
+  .interview-tips-group-inner2,
+  .interview-tips-group7 {
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .interview-tips-group7 {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: #f7b500;
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-4xl) var(--padding-21xl) var(--padding-6xl);
+    gap: 0 1.875rem;
+  }
+  .oval-icon8 {
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .i-am-deeply,
+  .rakesh-kumar2 {
+    position: relative;
+    display: inline-block;
+  }
+  .rakesh-kumar2 {
+    width: 14.438rem;
+    height: 3.563rem;
+    white-space: pre-wrap;
+  }
+  .i-am-deeply {
+    width: 68.438rem;
+    max-width: 100%;
+  }
+  .rakesh-kumar-frame1 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-3xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-amaranth);
+  }
+  .rakesh-kumar-frame,
+  .rakesh-kumar-frame1,
+  .top-level-frames,
+  .top-level-frames1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rakesh-kumar-frame {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 0.813rem 0;
+  }
+  .top-level-frames,
+  .top-level-frames1 {
+    box-sizing: border-box;
+  }
+  .top-level-frames1 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xl) 0 0;
+    min-width: 44.875rem;
+  }
+  .top-level-frames {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-white1);
+    border: 2px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: var(--padding-mid) var(--padding-21xl) var(--padding-6xl);
+    gap: 0 1.313rem;
+  }
+  .load-more1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-39xl);
+    letter-spacing: -0.05em;
+    line-height: 118%;
+    font-weight: 400;
+    font-family: var(--font-amaranth);
+    color: var(--color-gray-600);
+    text-align: center;
+  }
+  .interview-tips-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-36xl) var(--padding-32xl);
+    box-sizing: border-box;
+    gap: 2.563rem 0;
+    max-width: 100%;
+    z-index: 3;
+    text-align: left;
+    font-size: var(--font-size-27xl-1);
+    color: var(--color-black);
+    font-family: var(--font-aladin);
+  }
+  .logo-design-services-design4 {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-24xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    display: none;
+    z-index: 0;
+  }
+  .offers-more3,
+  .subscribe-to-the3 {
+    margin: 0;
+  }
+  .subscribe-to-the-container3 {
+    width: 40rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 24rem;
+    bottom: 24.188rem;
+    line-height: 145.15%;
+    display: inline-block;
+    z-index: 2;
+  }
+  .rectangle4 {
+    align-self: stretch;
+    height: 32.313rem;
+    position: relative;
+    border-radius: var(--br-35xl);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent);
+    display: none;
+  }
+  .education-logo {
+    height: 0.125rem;
+    width: 70.125rem;
+    position: relative;
+    border-top: 2px solid var(--color-gray-900);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .graphics-icon8 {
+    width: 2.488rem;
+    height: 2.331rem;
+    position: relative;
+  }
+  .frame-container2 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: 0.71rem;
+    background-color: var(--color-gray-800);
+    height: 5.5rem;
+    width: 5.5rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 0.181rem;
+    left: 40.375rem;
+    border-radius: var(--br-31xl);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .join-community-frame,
+  .line-separator7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .line-separator7 {
+    flex: 1;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-10xs) var(--padding-xl);
+    position: relative;
+    z-index: 2;
+  }
+  .join-community-frame {
+    height: 5.875rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+  }
+  .join-the-community6 {
+    margin: 0;
+    width: 84.75rem;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.05em;
+    line-height: 118%;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: var(--padding-xl);
+    z-index: 2;
+  }
+  .subscribe-button {
+    align-self: stretch;
+    border-radius: var(--br-35xl);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-base) var(--padding-249xl)
+      var(--padding-5xs);
+    box-sizing: border-box;
+    gap: 2.375rem 0;
+    max-width: 100%;
+    flex-shrink: 0;
+    z-index: 1;
+    font-size: var(--font-size-74xl);
+  }
+  .home45 {
+    position: relative;
+    font-size: var(--font-size-6xl-7);
+    text-decoration: underline;
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .home-whatsapp-parent {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300);
+    padding: var(--padding-xl) var(--padding-lgi);
+    background-color: var(--color-white1);
+    width: 10.188rem;
+    border-radius: var(--br-41xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .home46 {
+    position: relative;
+    font-size: var(--font-size-6xl-7);
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .home-whatsapp-parent1 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300);
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-22xl);
+    background-color: var(--color-white1);
+    border-radius: var(--br-41xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+  }
+  .home47 {
+    position: relative;
+    font-size: var(--font-size-6xl-7);
+    text-decoration: underline;
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .home-whatsapp-parent2 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300);
+    padding: var(--padding-xl);
+    background-color: var(--color-white1);
+    width: 9.438rem;
+    border-radius: var(--br-41xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .whatsapp216 {
+    position: relative;
+    font-size: var(--font-size-6xl-7);
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-white1);
+    text-align: left;
+  }
+  .home-whatsapp-parent3 {
+    cursor: pointer;
+    border: 1px solid var(--color-white1);
+    padding: var(--padding-xl) var(--padding-lgi);
+    background-color: var(--color-darkslategray-300);
+    width: 10.313rem;
+    border-radius: var(--br-41xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-whatsapp-parent3:hover {
+    background-color: var(--color-darkslategray-100);
+    border: 1px solid var(--color-gainsboro-200);
+    box-sizing: border-box;
+  }
+  .home48 {
+    position: relative;
+    font-size: var(--font-size-6xl-7);
+    letter-spacing: -0.01em;
+    font-family: var(--font-aladin);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .home-whatsapp-parent4 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300);
+    padding: var(--padding-xl) var(--padding-lgi);
+    background-color: var(--color-white1);
+    width: 9.063rem;
+    border-radius: var(--br-41xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-whatsapp-parent4:hover {
+    background-color: var(--color-gainsboro-200);
+    border: 1px solid var(--color-darkslategray-200);
+    box-sizing: border-box;
+  }
+  .parent-frame2,
+  .whatsapp-button {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .parent-frame2 {
+    border-radius: var(--br-31xl);
+    border: 1px solid var(--color-black);
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-42xl) 0 var(--padding-40xl);
+  }
+  .whatsapp-button {
+    width: 67.125rem;
+    height: 0.125rem;
+    position: relative;
+    border-top: 2px solid var(--color-gray-900);
+  }
+  .all-right-reserved4 {
+    width: 40rem;
+    position: relative;
+    line-height: 145.15%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .home-page {
+    flex: 1;
+    border-radius: var(--br-5xl);
+    background-color: var(--color-white1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-39xl) var(--padding-38xl) var(--padding-38xl);
+    gap: 2.5rem 0;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-aladin);
+  }
+  .footer-frame1,
+  .group-section,
+  .home-page {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .footer-frame1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-sm);
+    flex-shrink: 0;
+  }
+  .group-section {
+    width: 88.625rem;
+    border-radius: var(--br-24xl);
+    align-items: flex-end;
+    padding: 0 0 var(--padding-7xl) var(--padding-8xs);
+    position: relative;
+    gap: var(--gap-51xl);
+    background-image: url(./public/logo-design-services--design-your-own-logo---fiverr-1@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white1);
+    font-family: var(--font-aladin);
+  }
+  .discussion,
+  .group-section,
+  .oval-frame-paro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .oval-frame-paro {
+    align-self: stretch;
+    align-items: center;
+    gap: 4.625rem 0;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .discussion {
+    width: 100%;
+    position: relative;
+    border-radius: var(--br-29xl);
+    background-color: var(--color-white1);
+    overflow: hidden;
+    align-items: flex-end;
+    padding: var(--padding-28xl) 0 var(--padding-7xl);
+    box-sizing: border-box;
+    gap: 63.563rem 0;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-amaranth);
+  }
+  @media screen and (max-width: 1275px) {
+    .interview-tips-group5,
+    .interview-tips-group7 {
+      flex-wrap: wrap;
+    }
+    .interview-tips-group {
+      padding-top: var(--padding-17xl);
+      padding-bottom: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .home-page {
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .interview-tips-group1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .interview-tips-group4,
+    .interview-tips-group6 {
+      flex-wrap: wrap;
+    }
+    .top-level-frames1 {
+      min-width: 100%;
+    }
+    .interview-tips-group {
+      padding-top: var(--padding-4xl);
+      padding-bottom: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+    .parent-frame2 {
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .discussion1 {
+      font-size: 4.188rem;
+    }
+    .home-frame-home2 {
+      display: none;
+    }
+    .home-frame-home-parent {
+      width: 36.375rem;
+    }
+    .interview-tips-1011 {
+      font-size: var(--font-size-35xl);
+      line-height: 4.813rem;
+    }
+    .opened-by-rakesh {
+      font-size: 2.563rem;
+      line-height: 3rem;
+    }
+    .andy-bert,
+    .paro-shetty,
+    .paro-shetty1,
+    .rakesh-kumar,
+    .rakesh-kumar1,
+    .rakesh-kumar2 {
+      font-size: var(--font-size-18xl);
+    }
+    .load-more1 {
+      font-size: var(--font-size-27xl);
+      line-height: 3.438rem;
+    }
+    .interview-tips-group {
+      gap: 2.563rem 0;
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .join-the-community6 {
+      font-size: var(--font-size-27xl);
+      line-height: 4.125rem;
+    }
+    .subscribe-button {
+      gap: 2.375rem 0;
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-155xl);
+      box-sizing: border-box;
+    }
+    .home-page {
+      gap: 2.5rem 0;
+    }
+    .group-section {
+      gap: var(--gap-51xl);
+    }
+    .oval-frame-paro {
+      gap: 4.625rem 0;
+    }
+    .discussion {
+      gap: 63.563rem 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .discussion1 {
+      font-size: 2.625rem;
+    }
+    .vector-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .interview-tips-1011 {
+      font-size: var(--font-size-14xl);
+      line-height: 3.188rem;
+    }
+    .opened-by-rakesh {
+      font-size: 1.938rem;
+      line-height: 2.25rem;
+    }
+    .paro-shetty {
+      font-size: var(--font-size-9xl);
+    }
+    .confidence-its-essential {
+      font-size: var(--font-size-xl);
+    }
+    .rakesh-kumar {
+      font-size: var(--font-size-9xl);
+    }
+    .how-can-i {
+      font-size: var(--font-size-xl);
+    }
+    .paro-shetty1 {
+      font-size: var(--font-size-9xl);
+    }
+    .research-typical-questions {
+      font-size: var(--font-size-xl);
+    }
+    .rakesh-kumar1 {
+      font-size: var(--font-size-9xl);
+    }
+    .any-tips-for {
+      font-size: var(--font-size-xl);
+    }
+    .andy-bert {
+      font-size: var(--font-size-9xl);
+    }
+    .be-authentic-engage {
+      font-size: var(--font-size-xl);
+    }
+    .rakesh-kumar2 {
+      font-size: var(--font-size-9xl);
+    }
+    .i-am-deeply {
+      font-size: var(--font-size-lgi);
+    }
+    .load-more1 {
+      font-size: var(--font-size-16xl);
+      line-height: 2.563rem;
+    }
+    .interview-tips-group {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .subscribe-to-the-container3 {
+      font-size: var(--font-size-lgi);
+      line-height: 1.75rem;
+    }
+    .join-the-community6 {
+      font-size: var(--font-size-9xl);
+      line-height: 2.75rem;
+    }
+    .home45,
+    .home47,
+    .home48,
+    .whatsapp216 {
+      font-size: var(--font-size-2xl);
+    }
+    .all-right-reserved4 {
+      font-size: var(--font-size-lgi);
+      line-height: 1.75rem;
+    }
+    .group-section {
+      gap: var(--gap-51xl);
+    }
+    .oval-frame-paro {
+      gap: 4.625rem 0;
+    }
+    .discussion {
+      gap: 63.563rem 0;
+    }
+  }
